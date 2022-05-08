@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ItzNesbro's Website" />
+    <meta name="author" content="ItzNesbro" />
+    <title>ItzNesbro - Skills</title>
+
+    <!-- Others -->
+    <meta property="og:title" content="ItzNesbro" />
+    <meta property="og:description" content="ItzNesbro's Website" />
+    <meta
+      property="og:image"
+      content="https://itznesbro.vercel.app/assets/images/logo.png"
+    />
+    <meta property="og:image:alt" content="ItzNesbro" />
+    <meta property="og:type" content="website" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="og:url" content="https://itznesbro.vercel.app/" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="assets/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-icon-180x180.png"
+    />
+    <meta
+      name="theme-color"
+      content="#000"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta
+      name="theme-color"
+      content="#FFF"
+      media="(prefers-color-scheme: light)"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="navbar-logo">
+        <a href="/">ItzNesbro</a>
+      </div>
+      <div class="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <!-- Dropdown -->
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Social Links</a>
+          <div class="dropdown-content">
+            <a href="https://dsc.gg/itznesbro">Discord</a>
+            <a href="https://twitter.com/itznesbro">Twitter</a>
+            <a href="https://youtube.com/itznesbro">Youtube</a>
+          </div>
+        </div>
+        <!-- End Dropdown -->
+        <a href="skills.html" style="text-decoration: underline">Skills</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Skills -->
+    <div class="skills">
+      <div class="skills-title">
+        <h1>Skills</h1>
+      </div>
+      <div class="skills-content">
+        <div class="skills-content-item" id="web">
+          <div class="skills-content-item-title">
+            <h2>Web Development</h2>
+          </div>
+          <div class="skills-content-item-bar">
+            <div class="skills-content-item-bar-fill" style="width: 90%"></div>
+            <p>90%</p>
+          </div>
+        </div>
+        <div class="skills-content-item" id="bot">
+          <div class="skills-content-item-title">
+            <h2>Discord Bot Development</h2>
+          </div>
+          <div class="skills-content-item-bar">
+            <div class="skills-content-item-bar-fill" style="width: 80%"></div>
+            <p>68%</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>
+        <i class="fa-solid fa-copyright"></i>
+        <span class="date"></span> ItzNesbro - All rights reserved
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Javascript -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal(".skills", {
+        delay: 500,
+      });
+      ScrollReveal().reveal("#web", {
+        delay: 1000,
+      });
+      ScrollReveal().reveal("#bot", {
+        delay: 1500,
+      });
+      ScrollReveal.reveal(".footer", {
+        delay: 2000,
+      });
+    </script>
+  </body>
+</html>

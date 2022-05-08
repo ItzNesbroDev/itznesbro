@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ItzNesbro's Website" />
+    <meta name="author" content="ItzNesbro" />
+    <title>ItzNesbro - Web Developer | Discord Bot Developer | Youtuber</title>
+
+    <!-- Others -->
+    <meta property="og:title" content="ItzNesbro" />
+    <meta property="og:description" content="ItzNesbro's Website" />
+    <meta
+      property="og:image"
+      content="https://itznesbro.vercel.app/assets/images/logo.png"
+    />
+    <meta property="og:image:alt" content="ItzNesbro" />
+    <meta property="og:type" content="website" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="og:url" content="https://itznesbro.vercel.app/" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="assets/icons/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-icon-180x180.png"
+    />
+    <meta
+      name="theme-color"
+      content="#000"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta
+      name="theme-color"
+      content="#FFF"
+      media="(prefers-color-scheme: light)"
+    />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="navbar-logo">
+        <a href="/">ItzNesbro</a>
+      </div>
+      <div class="menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="navbar-links">
+        <a href="/" style="text-decoration: underline">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <!-- Dropdown -->
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Social Links</a>
+          <div class="dropdown-content">
+            <a href="https://dsc.gg/itznesbro">Discord</a>
+            <a href="https://twitter.com/itznesbro">Twitter</a>
+            <a href="https://youtube.com/itznesbro">Youtube</a>
+          </div>
+        </div>
+        <!-- End Dropdown -->
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- hero section -->
+    <div class="hero">
+      <h1>ItzNesbro</h1>
+      <p>I'm a web developer, discord bot developer, and youtuber.</p>
+      <div class="social-links">
+        <a href="https://dsc.gg/itznesbro">
+          <i class="fab fa-discord"></i>
+        </a>
+        <a href="https://youtube.com/itznesbro">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://twitter.com/itznesbro">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>
+        <i class="fa-solid fa-copyright"></i>
+        <span class="date"></span> ItzNesbro - All rights reserved
+      </p>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Javascript -->
+    <script src="assets/js/app.js"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal().reveal(".hero", {
+        delay: 500,
+      });
+      ScrollReveal.reveal(".footer", {
+        delay: 1000,
+      });
+    </script>
+  </body>
+</html>
