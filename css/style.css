@@ -1,19 +1,5 @@
-/*
-0 - 600px:      Phone
-600 - 900px:    Tablet portrait
-900 - 1200px:   Tablet landscape
-[1200 - 1800] is where our normal styles apply
-1800px + :      Big desktop
-$breakpoint arguement choices:
-- phone
-- tab-port
-- tab-land
-- big-desktop
-
-Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only inside media queries
-*/
 *,
-*::after,
+::after,
 *::before {
   margin: 0;
   padding: 0;
@@ -103,7 +89,7 @@ textarea {
     top: calc(100% + 1.5rem);
     height: 5px;
     width: 3rem;
-    background: #0062b9;
+    background: #2148c6;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px; }
@@ -155,12 +141,12 @@ textarea {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
   .btn--theme {
-    background: #0062b9;
+    background: #2148c6;
     color: #fff; }
   .btn--theme-inv {
-    color: #0062b9;
+    color: #2148c6;
     background: #fff;
-    border: 2px solid #0062b9;
+    border: 2px solid #2148c6;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
@@ -515,14 +501,14 @@ textarea {
     color: #333;
     transition: color .3s; }
     .header__logo-container:hover {
-      color: #0062b9; }
+      color: #2148c6; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;
     border-radius: 50px;
     overflow: hidden;
     margin-right: 1.5rem;
-    background: #0062b9; }
+    background: #2148c6; }
     @media only screen and (max-width: 56.25em) {
       .header__logo-img-cont {
         width: 4.5rem;
@@ -554,7 +540,7 @@ textarea {
     font-weight: 700;
     transition: color .3s; }
     .header__link:hover {
-      color: #0062b9; }
+      color: #2148c6; }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
@@ -601,7 +587,7 @@ textarea {
     letter-spacing: 2px;
     transition: color .3s; }
     .header__sm-menu-link a:hover {
-      color: #0062b9; }
+      color: #2148c6; }
   .header__sm-menu-link:first-child a {
     border-top: 1px solid #eee; }
   .header__sm-menu-link-last {
