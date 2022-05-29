@@ -61,11 +61,13 @@
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    background: #fff;
     z-index: 1;
   }
   .menu-links a {
     font-size: 1.2rem;
     color: #343a40;
+    padding: 0.5rem;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
   }

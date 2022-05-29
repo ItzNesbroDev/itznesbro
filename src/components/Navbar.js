@@ -18,9 +18,6 @@ const Navbar = () => {
         <Link to="/">
           Home
         </Link>
-        <Link to="/about">
-          About
-        </Link>
         <Link to="/works">
           Works
         </Link>
@@ -34,9 +31,6 @@ const Navbar = () => {
       <div className={`menu-links ${isActive ? 'active' : 'hide'}`}>
         <Link to="/">
           Home
-        </Link>
-        <Link to="/about">
-          About
         </Link>
         <Link to="/works">
           Works
