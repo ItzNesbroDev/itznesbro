@@ -25,7 +25,7 @@ const Footer = () => {
         </Link>
       </div>
       <div className="footer-copyright">
-        <p>{new Date().getFullYear()} <AiOutlineCopyrightCircle /> Copyright ItzNesbro (Nesbeer As). All Rights Reserved.</p>
+        <p>{new Date().getFullYear()} <AiOutlineCopyrightCircle /> Copyright ItzNesbro All Rights Reserved.</p>
       </div>
     </div>
   );
