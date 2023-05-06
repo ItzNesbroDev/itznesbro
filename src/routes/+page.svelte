@@ -1,5 +1,5 @@
 <script>
-  import Hero from "./Hero.svelte"
+	import Hero from './Hero.svelte';
 </script>
 
 <svelte:head>
@@ -7,5 +7,4 @@
 	<meta name="description" content="Official Website Of ItzNesbroDev" />
 </svelte:head>
 
-
-<Hero/>
+<Hero />

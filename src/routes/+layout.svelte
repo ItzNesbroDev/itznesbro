@@ -9,6 +9,4 @@
 	<main>
 		<slot />
 	</main>
-
 </div>
-
