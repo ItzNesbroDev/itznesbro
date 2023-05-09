@@ -20,6 +20,11 @@
 		<a class="font-bold text-base mr-5 underline" on:click|preventDefault={handleWorksClick}
 			>works</a
 		>
+		<a
+			class="font-bold text-base mr-5 underline"
+			href="https://itznesbro.hashnode.dev"
+			target="_blank">blogs</a
+		>
 		<a class="font-bold text-base mr-5 underline" href="mailto:itznesbro@proton.me">contact</a>
 	</div>
 </header>
