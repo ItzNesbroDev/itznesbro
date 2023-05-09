@@ -1,6 +1,4 @@
 <script>
-	import githubSvg from '../lib/images/github.svg';
-
 	let contactEmail = 'itznesbro@proton.me';
 	let youtubeUrl = 'http://www.youtube.com/@ItzNesbro';
 	let githubUrl = 'http://github.com/ItzNesbroDev';
