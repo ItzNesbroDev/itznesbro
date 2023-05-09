@@ -1,4 +1,9 @@
 <script>
+	import githubSvg from '../lib/images/github.svg';
+
+	let contactEmail = 'itznesbro@proton.me';
+	let youtubeUrl = 'http://www.youtube.com/@ItzNesbro';
+	let githubUrl = 'http://github.com/ItzNesbroDev';
 </script>
 
 <div class="ml-4 mt-3">
@@ -8,12 +13,10 @@
 		and youtuber
 	</p>
 	<div class="mt-3 underline">
-		<a class="ml-4 font-bold mt-4 text-xl text-white" href="mailto:itznesbro@proton.me">contact</a>
+		<a class="ml-4 font-bold mt-4 text-xl text-white" href={`mailto:${contactEmail}`}>contact</a>
 		<br />
-		<a href="https://youtube.com/@ItzNesbro" class="ml-4 font-bold mt-4 text-base text-gray-400"
-			>youtube</a
-		>
+		<a href={youtubeUrl} class="ml-4 font-bold mt-4 text-base text-gray-400">youtube</a>
 		<br />
-		<a href="https://dsc.gg/itznesbro" class="ml-4 font-bold mt-4 text-sm text-gray-400">discord</a>
+		<a href={githubUrl} class="ml-4 font-bold mt-4 text-sm text-gray-400"> github </a>
 	</div>
 </div>
