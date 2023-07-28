@@ -17,7 +17,7 @@
 				<h2 class="text-xl font-bold mb-2">{project.name}</h2>
 				<p class="text-gray-500 mb-4">{project.description}</p>
 				<a
-					href="{project.url}"
+					href={project.url}
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-blue-500 hover:text-blue-700 mt-2"
