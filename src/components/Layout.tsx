@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 interface Props {
   title?: string;
@@ -17,6 +18,7 @@ const Layout: React.FC<Props> = ({ title, children }) => {
       </Head>
       <Navbar />
       <main className="h-screen bg-background">{children}</main>
+      <Footer />
     </>
   );
 };
