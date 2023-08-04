@@ -7,7 +7,8 @@ const Hero: React.FC = () => {
       <div className="mb-2">
         <h2 className="text-2xl font-medium">
           Hi, my name is nesbeer,
-          <br /> i'm a <span className="text-primary underline">developer</span>
+          <br /> i&apos;m a{" "}
+          <span className="text-primary underline">developer</span>
           , video editor, <br /> and youtuber
         </h2>
       </div>
